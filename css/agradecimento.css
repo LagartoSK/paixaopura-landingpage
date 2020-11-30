@@ -1,0 +1,130 @@
+.wq-banner.wq-agradecimento{
+  margin-bottom: 300px;
+}
+
+.margim-none{
+  margin-bottom: 0;
+}
+
+.wq-banner.wq-agradecimento .wq-container .wq-wrapper {
+  grid-template-columns: 55%;
+  column-gap: 0px;
+  justify-content: center;
+}
+
+.wq-banner.wq-agradecimento .top,
+.wq-banner.wq-agradecimento .bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 75px 58px;
+  box-sizing: border-box;
+}
+
+.wq-banner.wq-agradecimento .top{
+  background: #F2F2F2;
+}
+
+.wq-banner.wq-agradecimento .bottom{
+  background: #E1E1E1;
+  padding-top: 60px;
+}
+.wq-banner.wq-agradecimento h1{
+  font-weight: bold;
+  text-transform: none;
+  margin-top: 20px;
+  max-width: 380px;
+  font-size: 30px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #3D3D3D;
+}
+.wq-banner.wq-agradecimento h2{
+  font-family: 'blogger_sansbold';
+  text-transform: none;
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #005DA0;
+}
+
+.wq-banner.wq-agradecimento p{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #3D3D3D;
+}
+
+
+.wq-banner.wq-agradecimento form{
+  padding: 0;
+  display: grid;
+  grid-template-columns: 73% 27%;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3F3F3;
+  width: 100%;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.wq-banner.wq-agradecimento form span{
+  height: 45px;
+  display: block;
+  line-height: 45px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #666666;
+  padding: 0 17px;
+  position: relative;
+}
+.wq-banner.wq-agradecimento form span:before{
+  content: '...';
+  display: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #666666;
+  background-color: #F3F3F3;
+  position: absolute;
+  height: 100%;
+  width: 34px;
+  top: 0;
+  right: 0;
+}
+.wq-banner.wq-agradecimento form button{
+  padding: 0px 0px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  background: #8D9091;
+  position: relative;
+  z-index: 3;
+  justify-content: center;
+  box-shadow: 0 0 black;
+  border: none;
+}
+.wq-banner {
+  position: relative;
+  height: 780px;
+  padding: 70px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wq-banner.wq-agradecimento{
+  margin-bottom: 0px;
+}
